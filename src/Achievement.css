@@ -1,0 +1,33 @@
+.Main {
+    margin: 25px;
+    color: black;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgb(214, 220, 226);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+
+.achievement-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0; /* Add some padding for better spacing */
+}
+
+.achievement-description {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px; /* Add some padding to separate from the year */
+}
+
+.achievement-year {
+    flex: 0;
+    text-align: right;
+    min-width: 100px; /* Ensure the year has a minimum width */
+}
+
